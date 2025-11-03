@@ -12,6 +12,35 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer__item-wrap">
                         <h4 class="footer__item-title">
+                            Follow Us
+                        </h4>
+                        <ul class="footer__social-list">
+                            <li class="footer__social-list-item">
+                                <a href="{{ $setting->facebook ?? '' }}" class="footer__social-list-item-lisk">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-list-item">
+                                <a href="{{ $setting->twitter ?? '' }}" class="footer__social-list-item-lisk">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-list-item">
+                                <a href="{{ $setting->instagram ?? '' }}" class="footer__social-list-item-lisk">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-list-item">
+                                <a href="{{ $setting->youtube ?? '' }}" class="footer__social-list-item-lisk">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer__item-wrap">
+                        <h4 class="footer__item-title">
                             Policy
                         </h4>
                         <ul class="footer__list">
@@ -95,35 +124,6 @@
                             <li class="footer__list-item">
                                 <a href="{{ url('/career') }}" class="footer__list-item-link">
                                     Careers
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer__item-wrap">
-                        <h4 class="footer__item-title">
-                            Follow Us
-                        </h4>
-                        <ul class="footer__social-list">
-                            <li class="footer__social-list-item">
-                                <a href="{{ $setting->facebook ?? '' }}" class="footer__social-list-item-lisk">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li class="footer__social-list-item">
-                                <a href="{{ $setting->twitter ?? '' }}" class="footer__social-list-item-lisk">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="footer__social-list-item">
-                                <a href="{{ $setting->instagram ?? '' }}" class="footer__social-list-item-lisk">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li class="footer__social-list-item">
-                                <a href="{{ $setting->youtube ?? '' }}" class="footer__social-list-item-lisk">
-                                    <i class="fab fa-youtube"></i>
                                 </a>
                             </li>
                         </ul>
