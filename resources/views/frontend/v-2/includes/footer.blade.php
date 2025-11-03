@@ -41,35 +41,6 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer__item-wrap">
                         <h4 class="footer__item-title">
-                            Policy
-                        </h4>
-                        <ul class="footer__list">
-                            <li class="footer__list-item">
-                                <a href="{{ url('/privacy-policy') }}" class="footer__list-item-link">
-                                    Privacy Policy
-                                </a>
-                            </li>
-                            <li class="footer__list-item">
-                                <a href="{{ url('/term-conditions') }}" class="footer__list-item-link">
-                                    Terms & Conditions
-                                </a>
-                            </li>
-                            <li class="footer__list-item">
-                                <a href="{{ url('/refund-policy') }}" class="footer__list-item-link">
-                                    Refund Policy
-                                </a>
-                            </li>
-                            <li class="footer__list-item">
-                                <a href="{{ url('/payment-policy') }}" class="footer__list-item-link">
-                                    Payment Policy
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer__item-wrap">
-                        <h4 class="footer__item-title">
                            Contacts
                         </h4>
                         <ul class="footer__contact-info-list">
@@ -124,6 +95,35 @@
                             <li class="footer__list-item">
                                 <a href="{{ url('/career') }}" class="footer__list-item-link">
                                     Careers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer__item-wrap">
+                        <h4 class="footer__item-title">
+                            Policy
+                        </h4>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="{{ url('/privacy-policy') }}" class="footer__list-item-link">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="{{ url('/term-conditions') }}" class="footer__list-item-link">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="{{ url('/refund-policy') }}" class="footer__list-item-link">
+                                    Refund Policy
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="{{ url('/payment-policy') }}" class="footer__list-item-link">
+                                    Payment Policy
                                 </a>
                             </li>
                         </ul>
